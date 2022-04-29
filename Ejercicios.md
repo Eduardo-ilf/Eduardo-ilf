@@ -19,8 +19,8 @@ Crear soluciones=
 - Cofla quiere saber cuanto es el vuelto */
 
 dinerocofla = prompt("cuanto dinero tienes Cofla?")
-dineroroberto = prompt("cuanto dinero tienes Roberto?")
-dineropedro = prompt("cuanto dinero tienes Pedro?")
+/* dineroroberto = prompt("cuanto dinero tienes Roberto?")
+dineropedro = prompt("cuanto dinero tienes Pedro?") */
 
 if (dinerocofla >= 0.6 && dinerocofla < 1){
     alert ("compra el helado de agua")
@@ -37,11 +37,11 @@ else if (dinerocofla >= 1.7 && dinerocofla < 1.8) {
     alert("compra el helado de helardo")
 
 }
-else if (dinerocofla >= 1.8 && dinerocofla < 2.9) {
+else if (dinerocofla >= 2.9) {
     alert("compra el helado con confites o pote de 1/4kg")
+   
 
 }
-else (dinerocofla >= 2.9)
- {
+else {
     alert("lo siento pobre de mierda, no te alcanza para un helado")
 }
